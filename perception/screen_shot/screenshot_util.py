@@ -15,7 +15,7 @@ class ScreenshotUtil:
         ensure_dir(records_dir)
         # 获取当前时间戳（ms级）
         timestamp = int(time.time() * 1000)
-        file_path = os.path.join(records_dir, f'{timestamp}.png')
+        file_path = os.path.join(records_dir, f'{timestamp}.jpg')
         # 截图
         img = ImageGrab.grab()
         img.save(file_path)

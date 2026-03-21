@@ -1,0 +1,5 @@
+path: ../dataset_detector
+train: images/train
+val: images/val
+nc: 2
+names: ['示例英雄A','示例英雄B']
